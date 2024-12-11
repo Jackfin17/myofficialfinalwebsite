@@ -1,0 +1,110 @@
+/* Simple CSS to Change the Background Color */
+
+/* Apply background color to the entire page */
+body {
+    background-color: #144d62; /* Light blue */
+    color: #000000; /* Text color for contrast */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: x-large;
+    margin: 0;
+    padding: 0px; ;
+    text-align: center;
+    border: #93811d;
+   
+}
+
+/* Example of a styled header */
+header {
+    background-color: #f3f3f3; /* Steel blue */
+    color: #000000;
+    padding: 100px;
+    text-align: center;
+    border: #ffffff ;
+
+}
+
+.bold{
+    color: #f3f3f3;
+}
+.titles {
+    display: inline-block; /* Ensure the element wraps around the content */
+    padding: 20px; /* Adds more space between the border and the text */
+    border: 3px solid black; /* Solid black border for a more professional look */
+    background-color: #ffffff; /* Blue background color matching the image */
+    color: black; /* White text for better contrast on the blue background */
+    font-weight: normal; /* Remove bold text for a cleaner look */
+    font-family: 'Arial', sans-serif; /* Simple, professional font */
+    text-align: center; /* Centers the text inside */
+    border-radius: 10px; /* Softer corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 10px; /* Adds some spacing around each list item */
+}
+ .lists {
+    display: list-item; /* Ensures the list markers (bullets) are shown */
+    list-style-position: inside; /* Makes the bullets appear inside the padding box */
+    padding: 20px; /* Adds more space between the border and the text */
+    border: 3px solid rgb(0, 0, 0); /* Solid border */
+    background-color: #ffffff; /* Black background color */
+    color: rgb(0, 0, 0); /* White text for better contrast */
+    font-weight: normal; /* Normal text weight */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    text-align: center; /* Centers the text inside */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 10px; /* Adds some spacing around each list item */
+}
+
+ol {
+    margin: 0; /* Adjusts spacing between nested lists */
+    padding-left: 20px; /* Ensures the ordered list is indented */
+}
+
+ul {
+    list-style-type: disc; /* Ensures the unordered list uses bullet points */
+    margin: 0; /* Resets default browser margin */
+    padding-left: 20px; /* Adds indentation for bullets */
+}
+
+/* Link style when it's not clicked */
+a:link {
+    color: white; /* Color of the link when it hasn't been clicked yet */
+    text-decoration: underline; /* Optional: removes underline */
+}
+
+/* Link style when it's being hovered over */
+a:hover {
+    color: white; /* Keeps the link color white when hovered */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+/* Link style when it's been clicked/visited */
+a:visited {
+    color: white; /* Keeps the link color white after it's been clicked */
+    text-decoration: underline;
+}
+.stuckthings{
+    background-color: azure;
+    border: solid 2px;
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+.bodyy{
+top: 114px;
+left: 114px;
+right: 114px;
+bottom: 39px;
+
+}
+.footer{
+bottom: 5px;
+left: 5px;
+right: 5px;
+height: 25px
+
+
+}
